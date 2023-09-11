@@ -1,0 +1,1 @@
+{"class_name": "ResNet", "config": {"input_shape": [224, 224, 3], "classes": 47}, "keras_version": "2.12.0", "backend": "tensorflow"}
