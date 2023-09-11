@@ -29,10 +29,10 @@ Here's an explanation of my code:
 -The **resnet_model.summary()** command prints a summary of the model's architecture, showing layer names, output shapes, and the number of parameters.
   One thing to note is that you seem to be using labels as a variable without defining it. Make sure you have a list or array of class labels to use for your specific classification task.
 
--As my model is **functional** I have build training and testing sessions by creating function with decoration ***@tf.funtion**.This allows us to train the model.First we create objects
+-As my model is **functional** I have build training and testing sessions by creating function with decoration ***@tf.function***.This allows us to train the model.First we create objects
 from **loss function** and **optimizer**.The data labels we are using is **'uint16'** so we use **"SparseCategoricalCrossEntropy"** loss function and **"Adam"** optimizer.
 
-  5.I have train my model with 10 **epochs** to save time. But you can change the number **epochs** to decrease loss and increse accuracy.Here you can see a sudden change of loss and validation 
+  5.I have trained my model with 10 **epochs** to save time. But you can change the number **epochs** to decrease loss and increse accuracy.Here you can see a sudden change of loss and validation 
 loss at initial phases of the training session .But then we can't see huge difference. Both accuracies on the other hand gradually increased after second epoch.
 
 <img src="https://github.com/Mukhriddin19980901/ResNet_architecture/blob/main/acc.png" width="500" height="400" />
