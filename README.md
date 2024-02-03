@@ -20,7 +20,7 @@ Here's an explanation of my code:
 -The model is constructed using TensorFlow's Functional API.
 -The ***call*** method simply calls the underlying **ResNet** model.
 
-3.Instantiating and building the model:
+3.Instantiating and building the model: 
 
 -The input_size and classes variables are defined to specify the input size and the number of output classes.
 -The ResNet class is instantiated as resnet_model, and then the model is built with a sample input shape.
